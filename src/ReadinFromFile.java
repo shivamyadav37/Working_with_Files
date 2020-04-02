@@ -9,7 +9,8 @@ public class ReadinFromFile {
         File file = new File("Output.txt");
         if (file.exists()){
             Scanner inputFile = new Scanner(file);
-
+            System.out.println(inputFile.nextLine());
+            inputFile.close();
         }
 
     }
