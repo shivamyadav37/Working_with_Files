@@ -7,6 +7,7 @@ public class WritingToFile {
         //Create and open the file
         Writer out;
         PrintWriter OutPutFile = new PrintWriter("Output.txt");
+        OutPutFile.println("This is Line1");
 
     }
 }
