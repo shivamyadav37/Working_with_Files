@@ -10,6 +10,7 @@ public class ReadinFromFile {
         File file = new File("Output.txt");
         if (file.exists()){
             Scanner inputFile = new Scanner(file);
+            //Reading Line 1 from file
             System.out.println(inputFile.nextLine());
             inputFile.close();
 
