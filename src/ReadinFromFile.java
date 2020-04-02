@@ -13,8 +13,9 @@ public class ReadinFromFile {
             //Reading Line 1 from file
             while (inputFile.hasNext()) {
                 System.out.println(inputFile.nextLine());
-                inputFile.close();
+
             }
+            inputFile.close();
 
         }
         else {
