@@ -11,8 +11,10 @@ public class ReadinFromFile {
         if (file.exists()){
             Scanner inputFile = new Scanner(file);
             //Reading Line 1 from file
-            System.out.println(inputFile.nextLine());
-            inputFile.close();
+            while (inputFile.hasNext()) {
+                System.out.println(inputFile.nextLine());
+                inputFile.close();
+            }
 
         }
         else {
